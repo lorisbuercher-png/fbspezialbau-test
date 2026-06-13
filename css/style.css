@@ -451,3 +451,28 @@ font-size:2rem;
 }
 
 }
+/* ANIMATIONEN */
+
+.service-card,
+.reference-card,
+.stat,
+.about-content{
+
+opacity:0;
+transform:translateY(40px);
+transition:.8s ease;
+
+}
+
+.show{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+.header.scrolled{
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
