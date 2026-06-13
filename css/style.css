@@ -487,3 +487,80 @@ transform:translateY(0);
 box-shadow:0 10px 30px rgba(0,0,0,.15);
 
 }
+/* PREMIUM STATISTIKBEREICH */
+
+.bottom-highlight{
+background:#111;
+padding:80px 0;
+}
+
+.bottom-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1.2fr;
+gap:30px;
+align-items:center;
+}
+
+.stat-item{
+text-align:center;
+color:white;
+}
+
+.stat-item i{
+font-size:50px;
+color:#d8a400;
+margin-bottom:20px;
+}
+
+.stat-item h3{
+font-size:58px;
+font-weight:800;
+margin-bottom:10px;
+}
+
+.stat-item p{
+font-size:18px;
+font-weight:600;
+color:#ddd;
+}
+
+.cta-box{
+background:#d8a400;
+padding:40px;
+border-radius:8px;
+}
+
+.cta-box h3{
+font-size:30px;
+margin-bottom:15px;
+color:#111;
+}
+
+.cta-box p{
+color:#222;
+margin-bottom:25px;
+line-height:1.6;
+}
+
+.cta-btn{
+display:inline-block;
+background:#111;
+color:white;
+padding:15px 25px;
+text-decoration:none;
+font-weight:700;
+border-radius:5px;
+transition:.3s;
+}
+
+.cta-btn:hover{
+transform:translateY(-3px);
+}
+
+@media(max-width:1000px){
+
+.bottom-grid{
+grid-template-columns:1fr;
+}
+
+}
